@@ -44,3 +44,48 @@ This repository is a place for me to practice and reflect on what I’ve learned
 Feel free to browse through my code and follow along with my journey into Python. You can clone the repo if you’d like to try out the examples:
 ```bash
 git clone https://github.com/yourusername/python-basics
+
+
+# Python Data Types
+
+This repository covers Python's built-in data types, which are crucial for understanding how variables store and manipulate data in Python.
+
+## Built-in Data Types
+
+Python provides several built-in data types, categorized as follows:
+- **Text Type**: `str`
+- **Numeric Types**: `int`, `float`, `complex`
+- **Sequence Types**: `list`, `tuple`, `range`
+- **Mapping Type**: `dict`
+- **Set Types**: `set`, `frozenset`
+- **Boolean Type**: `bool`
+- **Binary Types**: `bytes`, `bytearray`, `memoryview`
+- **None Type**: `NoneType`
+
+## Examples
+
+### Checking Data Types
+```python
+x = 6
+print(type(x))  # Output: <class 'int'>
+```
+
+### Assigning Specific Data Types
+```python
+x = "Hello World"         # str
+x = 20                    # int
+x = 20.5                  # float
+x = ["apple", "banana"]    # list
+```
+
+## Setting Specific Data Types with Constructor Functions
+```python
+x = str("Hello World")      # str
+x = int(20)                 # int
+x = list(("apple", "banana"))  # list
+```
+
+---
+
+This repository also includes detailed information on Python's numeric types, string methods, and other core operations.
+
